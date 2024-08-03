@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5EAFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+}
+body main .content_1 {
+  padding: 20px;
+  padding-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #28293D;
+}
+body main .content_1 h1 {
+  margin-bottom: 20px;
+}
+body main .content_1 p {
+  opacity: 70%;
+  margin-bottom: 30px;
+}
+body main .content_1 .blocks_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+body main .content_1 .blocks_container .block {
+  margin: 10px;
+  width: 184px;
+  height: 288px;
+  border-radius: 16px;
+  background: linear-gradient(to bottom right, #3E7BFA, #6600CC);
+  overflow: hidden;
+}
+body main .content_1 .blocks_container .block svg {
+  position: relative;
+  height: 60px;
+  left: -50px;
+  top: calc(100% - 119px);
+  z-index: 1;
+}
+body main .content_1 .blocks_container .block .title {
+  padding-top: 10px;
+  color: white;
+  background: #373950;
+  position: relative;
+  height: 66px;
+  top: calc(100% - 126px);
+  z-index: 1;
+}
+body main .content_1 .blocks_container .block img {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: -70px;
+}
+body main .content_2_wave {
+  position: relative;
+  top: 30px;
+}
+body main .content_2 {
+  padding: 20px;
+  background: #373950;
+  color: white;
+  position: relative;
+}
+body main .content_2 p {
+  margin: 20px 0;
+  opacity: 80%;
+}
+body main .content_2 .blocks_container {
+  display: flex;
+  justify-content: center;
+}
+body main .content_2 .blocks_container .block {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+body main .content_2 .blocks_container .image {
+  width: 168px;
+  height: 112px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+body main .content_2 .blocks_container .image .amount {
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.768627451);
+  color: #06C270;
+  width: 100%;
+}
+body main .content_2 .blocks_container .img1 {
+  background-image: url("images/Thumb1.png");
+}
+body main .content_2 .blocks_container .img2 {
+  background-image: url("images/Thumb2.png");
+}
+body main .content_2 .blocks_container .img3 {
+  background-image: url("images/Thumb3.png");
+}
+body main .content_2 .blocks_container .title {
+  display: flex;
+}
+body main .content_2 .blocks_container .title * {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+body main .content_2 button {
+  border: none;
+  border-radius: 8px;
+  width: 176px;
+  height: 40px;
+  background-color: #DA2E71;
+  color: white;
+  margin: 10px;
+  transition: background-color 333ms ease;
+}
+body main .content_2 button:hover {
+  background-color: #af2459;
+}
+body footer {
+  background: linear-gradient(to bottom right, #494C6A, #252638);
+  padding: 20px 40px;
+}
+body footer > div {
+  padding: 1px;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body footer > div .content {
+  background-color: rgb(64, 66, 93);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+body footer > div .content .info {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+body footer button {
+  width: 178px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 333ms ease;
+}
+body footer button svg {
+  margin-right: 10px;
+}
+body footer button svg path {
+  transition: fill 333ms ease;
+}
+body footer button:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+body footer button:hover path {
+  fill: rgba(255, 255, 255, 0.6);
+}
+body footer .mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3B3B;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  position: absolute;
+  left: calc(100% - 16px);
+  top: -8px;
+  z-index: 1;
+}
+body footer .gradient_border1 {
+  background: linear-gradient(to bottom right, #FF3B3B, #6600CC);
+}
+body footer .gradient_border1 .info {
+  background: linear-gradient(to bottom right, #FF3B3B, #6600CC);
+}
+body footer .gradient_border1 .info h1 {
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  margin-bottom: 6px;
+}
+body footer .gradient_border1 .info h1 .smartphone {
+  position: relative;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/shutterstock_2025322109 [Converted] 1.png");
+}
+body footer .gradient_border1 .info h1 .smartphone .fireball {
+  position: absolute;
+  top: 10.59px;
+  left: 12.94px;
+}
+body footer .gradient_border1 .info h1 .smartphone .stick1 {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
+body footer .gradient_border1 .info h1 .smartphone .stick2 {
+  position: absolute;
+  top: 8px;
+  left: 34px;
+}
+body footer .gradient_border1 .info h1 .smartphone .stick3 {
+  position: absolute;
+  top: 12px;
+}
+body footer .gradient_border1 .info h1 .smartphone .stick4 {
+  position: absolute;
+  top: 12px;
+  left: 38px;
+}
+body footer .gradient_border1 .info p {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 80%;
+}
+body footer .gradient_border1 .info p a {
+  color: white;
+}
+body footer .gradient_border1 button {
+  background: linear-gradient(to bottom right, #FF3B3B, #6600CC);
+}
+body footer .gradient_border2 {
+  background: linear-gradient(to bottom right, #3E7BFA, #6600CC);
+}
+body footer .gradient_border2 .info {
+  background: linear-gradient(to bottom right, #3E7BFA, #6600CC);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+}
+body footer .gradient_border2 .info .bell {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/shutterstock_2014325807 [Converted] 1.png");
+  margin-right: 10px;
+}
+body footer .gradient_border2 .info a {
+  color: white;
+}
+body footer .gradient_border2 button {
+  background: linear-gradient(to bottom right, #3E7BFA, #6600CC);
+}
+body footer .operator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: left;
+  margin: 10px 0;
+}
+body footer .operator h1 {
+  font-weight: 700;
+  font-size: 14px;
+}
+body footer .operator p {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 60%;
+}
+body footer .operator button {
+  background: linear-gradient(to bottom right, #FF3B3B, #6600CC);
+}
+body footer .end {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+body footer .end a {
+  text-decoration: none;
+  color: #FF3B3B;
+}
+
+@media screen and (max-width: 560px) {
+  .blocks_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer > div > .content {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto;
+  }
+  footer > div > .content button {
+    margin: 10px 0;
+  }
+  .operator {
+    flex-direction: column;
+    text-align: center !important;
+  }
+  .operator p {
+    margin: 10px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
